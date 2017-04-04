@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import logo from '../../images/user-male-icon.png';
 class DriverSideBar extends Component {
     render() {
         return (
@@ -13,20 +13,26 @@ class DriverSideBar extends Component {
                 }}>
                 <div style={{flex:1, display:'flex', flexDirection:'column', padding:'10px', borderRadius:10, backgroundColor:'white'}}>
                     <section style={{flex:1}}>
-                        <header>Drivers</header>
+                        <header style={{display:'flex', justifyContent:'space-between'}}>
+                            <span>Drivers</span>
+                            <input placeholder="search" />
+                        </header>
                         <div style={{overflow:'auto'}}>
-                            <section>
-                                PIC  name
+                            <section style={{display:'flex', alignItems:"center"}}>
+                                <span style={{padding:'10px'}}><img src={logo} width="20px" /></span>  
+                                <span>Christian</span>  
                             </section>
-                            <section style={{display:'flex'}}>
-                                <span><img src="" /></span>  
+                            <section style={{display:'flex', alignItems:"center"}}>
+                                <span style={{padding:'10px'}}><img src={logo} width="20px" /></span>  
+                                <span>Saun</span>  
+                            </section>
+                            <section style={{display:'flex', alignItems:"center"}}>
+                                <span style={{padding:'10px'}}><img src={logo} width="20px" /></span>  
+                                <span>Xolani</span>  
+                            </section>
+                            <section style={{display:'flex', alignItems:"center"}}>
+                                <span style={{padding:'10px'}}><img src={logo} width="20px" /></span>  
                                 <span>Tshepo</span>  
-                            </section>
-                            <section>
-                                PIC  name
-                            </section>
-                            <section>
-                                PIC  name
                             </section>
                         </div>
                     </section>
