@@ -19,7 +19,7 @@ class DriverSideBar extends Component {
                                 PIC  name
                             </section>
                             <section style={{display:'flex'}}>
-                                <span>PIC</span>  
+                                <span><img src="" /></span>  
                                 <span>Tshepo</span>  
                             </section>
                             <section>
